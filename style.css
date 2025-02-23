@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Outfit', sans-serif;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Young Serif', serif;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;   
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;   
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    color: #312E2C;
+}
+
+.container {
+    padding: 0 32px;
+}
+
+.img-container{
+    position: relative;
+    margin-left: -32px;
+    margin-right: -32px;
+    padding-bottom: 20px;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.recipe {
+    padding-top: 20px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
