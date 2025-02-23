@@ -3,11 +3,6 @@
     src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
 
-@font-face {
-    font-family: 'Young Serif', serif;
-    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
-}
-
 * {
     margin: 0;
     padding: 0;   
@@ -42,6 +37,83 @@ body {
 .recipe {
     padding-top: 20px;
 }
+
+
+
+.text-preset-1 {
+    font-size: 40px;
+    font-family: 'Young Serif', serif;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+.text-preset-2 {
+    font-size: 28px;
+    font-family: 'Young Serif', serif;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+.text-preset-3 {
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+.text-preset-4 {
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.text-preset-4-bold {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.title {
+    padding-bottom: 12px;
+    color: #312E2C;
+    font-weight: 400;
+    font-size: 37px;
+}
+
+.description {
+    padding: 12px 0 16px 0;
+    color: #5F564D;
+}
+
+.prep-time {
+    margin: 16px 0;
+    padding: 24px;
+    background-color: #fff7fb;
+    border-radius: 12px;
+}
+
+
+.prep-time h2 {
+    color: #7A284E;
+    padding-bottom: 8px;
+}
+
+.prep-time ul {
+    padding-top: 8px;
+    color: #5F564D;
+}
+
+.prep-time li {
+    padding-left: 16px;
+    padding-bottom: 8px;
+    width: 80%;
+}
+
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
